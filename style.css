@@ -1,0 +1,17 @@
+.ImageAndNamePage {
+    background-color: #2B3035;
+}
+header {
+    background-color: #2B3035;
+}
+header ul li a{
+    color: white;
+    text-decoration: none;
+}
+header ul li a.active{
+    color: white;
+    margin-top: 100rem;
+    text-decoration: underline;
+    font-weight:500;
+}
+
