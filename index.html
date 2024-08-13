@@ -6,38 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Khaled Jallad</title>
     <link rel="stylesheet" href="lib/css.bootstrp/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/fontawesome-free-6.6.0-web/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="lib/js.bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="lib/fontawesome-free-6.6.0-web/js/all.min.js"></script>
 </head>
 
 <body>
-    <!-- <header>
-        <ul class="nav justify-content-evenly">
-            <li>
-                <a href="#" class="active">Active</a>
+    <header class="d-flex justify-content-end">
+        <nav>
+            <ul class="nav  d-md-flex justify-content-md-end me-md-5">
+                <li class="nav-item">
+                    <a class="active nav-link text-light" href="#">Home</a>
             </li>
-            <li>
-                <a href="#" class="notactive">Link</a>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">About</a>
             </li>
-            <li>
-                <a href="#" class="notactive">Link</a>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Contact</a>
             </li>
-            <li>
-                <a href="#" class="notactive">Link</a>
-            </li>
-            
         </ul>
-    </header> -->
-    <main class="ImageAndNamePage d-flex justify-content-evenly">
-        <section class="row align-items-center">
-            <div class=" col ">
-                <img src="source/KhaledJalladImage-removebg-preview.png" alt="this is my Image" class="img-fluid" width="500px" height="500px">
+        </nav>
+    </header>
+    <main>
+        <section class="imageNameAndDesc row row-cols-7 align-items-center justify-content-center">
+            <div class="image col-md-5">
+                <img src="assets/KhaledJalladImage-removebg-preview.png" alt="" class="img-fluid">
             </div>
-            <div class="myName col ">
-                <h1 class="text-center col text-light">Khaled Jallad</h1>
-                <p class="text-light">Fullstack developer</p>
+            <div class="name col-md-6  col-ms-12">
+                <span>
+                    <h1 class="text-light">Khaled Jallad</h1>
+                    <p class="text-light">some text that will be inserted heresome text that will be inserted heresome
+                        text that will be inserted heresome
+                        text that will be inserted heresome text that will be inserted heresome text that will be
+                        inserted heresome text that will be inserted heresome
+                        text that will be inserted heresome text that will be inserted here</p>
+                </span>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-strat mb-3">
+                    <button class="me-md-2 px-5 " type="button" id="letsStartBtn">let's strat</button>
+                    <button class="px-3" type="button" id="seeProjectBtn"><span>See more project's</span></button>
+                </div>
+            </div>
+            <div  class="contactIcon d-flex gap-2 d-md-flex justify-content-md-end justify-content-sm-center mb-3 ">
+                <div class="border rounded-circle  px-2 py-1">
+                    <i class="fa-brands fa-x-twitter fa-2x px-1 py-1"></i>
+                </div>
+                <div class="border rounded-circle  px-2 py-1">
+                    <i class="fa-brands fa-linkedin-in fa-2x px-1 py-1"></i>
+                </div>
+                <div class="border rounded-circle  px-2 py-1">
+                    <i class="fa-brands fa-facebook-f fa-2x px-2 py-1"></i>
+                </div>
             </div>
         </section>
+
     </main>
 </body>
 

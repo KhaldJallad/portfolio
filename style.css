@@ -1,17 +1,67 @@
-.ImageAndNamePage {
-    background-color: #2B3035;
+body{
+    background-color: #03346E;
 }
-header {
-    background-color: #2B3035;
+.imageNameAndDesc{
+    background-image: linear-gradient(0deg, #021526 60%, #03346E 40%);
+    box-shadow: 0rem 15px 15px black;
+    
 }
-header ul li a{
+.name{
+    margin-top: 7%;
+}
+
+header nav ul li a.active{
+    border-bottom-color:white ;
+    border-bottom-style:solid ;
+    border-width: 2px;
+    font-weight: bold;
+}
+
+header nav ul li a:hover{
+    font-weight: bold;
+    border-bottom-style:solid;
+    border-width: 2px;
+}
+
+#letsStartBtn{
+    background-color: #6EACDA;
+    border-radius: 6px;
+    border-color: #6EACDA;
+    padding: 5px;
     color: white;
-    text-decoration: none;
 }
-header ul li a.active{
+
+#seeProjectBtn{
+    border-radius: 6px;
+    padding: 5px;
+    border-color: #6EACDA;
+    color:#6EACDA;
+}
+
+#letsStartBtn:hover{
+    background-color: white;
+    color: #6EACDA;
+}
+
+#seeProjectBtn:hover{
+    background-color: #6EACDA;
     color: white;
-    margin-top: 100rem;
-    text-decoration: underline;
-    font-weight:500;
 }
+
+.contactIcon  div{
+    background-color: #E2E2B6;
+    cursor: pointer;
+    color: white;
+}
+
+
+
+.contactIcon  div:hover{
+    background-color: white;
+    cursor: pointer;
+    color: #E2E2B6;
+}
+
+
+
 
