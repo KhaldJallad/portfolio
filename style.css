@@ -1,13 +1,14 @@
+
 body{
     background-color: #03346E;
 }
 .imageNameAndDesc{
-    background-image: linear-gradient(0deg, #021526 60%, #03346E 40%);
+    background-image: linear-gradient(0deg, #021526 50%, #03346E 40%);
     box-shadow: 0rem 15px 15px black;
     
 }
 .name{
-    margin-top: 7%;
+    margin-top: 14%;
 }
 
 header nav ul li a.active{
@@ -62,6 +63,30 @@ header nav ul li a:hover{
     color: #E2E2B6;
 }
 
+.line{
+    border-bottom-width: 5px;
+    border-bottom-style:solid ;
+    border-bottom-color:white ;
+}
+
+.SkillsImage{
+    background-color: #6EACDA;
+    border: #6EACDA;
+    border-radius: 10px;
+    box-shadow: 20px 20px 15px black;
+}
 
 
 
+.color:hover{
+    background-color: #E2E2B6;
+}
+
+.SkillsImage:hover {
+    box-shadow: 10px 20px 20px rgba(0,0,0,0.3);
+    opacity: 1;
+    transform: scale(1.1, 1.1);
+  }
+  .SkillsImage:hover:after {
+    opacity: 5;
+  }
