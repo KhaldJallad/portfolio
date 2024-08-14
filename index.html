@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="lib/js.bootstrap/bootstrap.bundle.min.js"></script>
     <script src="lib/fontawesome-free-6.6.0-web/js/all.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -18,48 +19,101 @@
             <ul class="nav  d-md-flex justify-content-md-end me-md-5">
                 <li class="nav-item">
                     <a class="active nav-link text-light" href="#">Home</a>
-            </li>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link text-light" href="#">About</a>
-            </li>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link text-light" href="#">Contact</a>
-            </li>
-        </ul>
+                </li>
+            </ul>
         </nav>
     </header>
-    <main>
-        <section class="imageNameAndDesc row row-cols-7 align-items-center justify-content-center">
+    <main class="row justify-content-center">
+        <section class="imageNameAndDesc row row-cols-12 align-items-center justify-content-center">
             <div class="image col-md-5">
-                <img src="assets/KhaledJalladImage-removebg-preview.png" alt="" class="img-fluid">
+                <img src="assets/KhaledJalladImage-removebg-preview.png" alt="" class="img-fluid"
+                    width="500px" loading="lazy">
             </div>
             <div class="name col-md-6  col-ms-12">
-                <span>
+                <span class="">
                     <h1 class="text-light">Khaled Jallad</h1>
                     <p class="text-light">some text that will be inserted heresome text that will be inserted heresome
-                        text that will be inserted heresome
-                        text that will be inserted heresome text that will be inserted heresome text that will be
-                        inserted heresome text that will be inserted heresome
-                        text that will be inserted heresome text that will be inserted here</p>
+                        text that will be inserted heresome</p>
                 </span>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-strat mb-3">
                     <button class="me-md-2 px-5 " type="button" id="letsStartBtn">let's strat</button>
                     <button class="px-3" type="button" id="seeProjectBtn"><span>See more project's</span></button>
                 </div>
+                <div class="contactIcon d-flex gap-2 d-md-flex justify-content-md-end justify-content-sm-center">
+                    <div class="border rounded-circle  px-2 py-1">
+                        <i class="fa-brands fa-x-twitter fa-2x px-1 py-1"></i>
+                    </div>
+                    <div class="border rounded-circle  px-2 py-1">
+                        <i class="fa-brands fa-linkedin-in fa-2x px-1 py-1"></i>
+                    </div>
+                    <div class="border rounded-circle  px-2 py-1">
+                        <i class="fa-brands fa-facebook-f fa-2x px-2 py-1"></i>
+                    </div>
+                </div>
             </div>
-            <div  class="contactIcon d-flex gap-2 d-md-flex justify-content-md-end justify-content-sm-center mb-3 ">
-                <div class="border rounded-circle  px-2 py-1">
-                    <i class="fa-brands fa-x-twitter fa-2x px-1 py-1"></i>
+
+        </section>
+        <section class="aboutme mt-4 row row-cols-12 justify-content-strat  ms-5">
+            <div class="col-md-5 col-ms-12">
+                <h1 class="text-light">About</h1>
+                <div class="line"></div>
+
+            </div>
+            <div class="col-md-11  col-ms-12 mt-2">
+                <p class="text-light">some text that will be inserted heresome text that will be inserted heresome
+                    text that will be inserted heresome
+                    text that will be inserted heresome text that will be inserted heresome text that will be
+                    inserted heresome text that will be inserted heresome
+                    text that will be inserted heresome text that will be inserted heresome text that will be inserted
+                    heresome text that will be inserted heresome
+                    text that will be inserted heresome
+                    text that will be inserted heresome text that will be inserted heresome text that will be
+                    inserted heresome text that will be inserted heresome
+                    text that will be inserted heresome text that will be inserted here
+                    some text that will be inserted heresome text that will be inserted heresome
+                    text that will be inserted heresome
+                    text that will be inserted heresome text that will be inserted heresome text that will be
+                    inserted heresome text that will be inserted heresome
+                    text that will be inserted heresome text that will be inserted here
+                    some text that will be inserted heresome text that will be inserted heresome
+                    text that will be inserted heresome
+                    text that will be inserted heresome text that will be inserted heresome text that will be
+                    inserted heresome text that will be inserted heresome
+                    text that will be inserted heresome text that will be inserted here
+                </p>
+            </div>
+            </div>
+        </section>
+        <section class="skilles container text-center mb-3 mt-4">
+            <div class="row row-cols-12">
+                <div class="col">
+                    <h1 class="text-light">Skills</h1>
                 </div>
-                <div class="border rounded-circle  px-2 py-1">
-                    <i class="fa-brands fa-linkedin-in fa-2x px-1 py-1"></i>
-                </div>
-                <div class="border rounded-circle  px-2 py-1">
-                    <i class="fa-brands fa-facebook-f fa-2x px-2 py-1"></i>
+                <div class="row row-cols-7  gap-5   justify-content-center">
+                    <div class="col SkillsImage">
+                        <img src="assets/pythonImage-removebg-preview.png" alt="" class="mt-md-4 img-fluid">
+                        <div class="color">
+
+                        </div>
+                    </div>
+                    <div class="col SkillsImage">
+                        <img src="assets/png-clipart-bootstrap-logo-thumbnail-tech-companies-thumbnail-removebg-preview.png" alt="" class=" mt-2 img-fluid ">
+                    </div>
+                    <div class="col SkillsImage">
+                        <img src="assets/JavaScript-logo.png" alt="" class="img-fluid mt-md-4" >
+                    </div>
+                    <div class="col SkillsImage">
+                        <img src="assets/php_image-removebg-preview.png" alt="" class="img-fluid mt-md-5">
+                    </div>
                 </div>
             </div>
         </section>
-
     </main>
 </body>
 
