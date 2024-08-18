@@ -12,20 +12,21 @@
     <script src="lib/fontawesome-free-6.6.0-web/js/all.min.js"></script>
     <script src="lib/JqueryLib.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
 </head>
 
 <body>
-    <header class="d-flex justify-content-end">
+    <header class="d-flex justify-content-end sticky-top">
         <nav>
             <ul class="nav  d-md-flex justify-content-md-end me-md-5">
                 <li class="nav-item">
-                    <a class="active nav-link text-light" href="#">Home</a>
+                    <a class="navItem  nav-link text-light" href="#" id="home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="#">About</a>
+                    <a class="navItem nav-link text-light" href="#aboutMe" id="about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Contact</a>
+                    <a class="navItem nav-link text-light" href="#contactMe" id="contact">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -58,13 +59,11 @@
                     </div>
                 </div>
             </div>
-
         </section>
-        <section class="aboutme mt-4 row row-cols-12 justify-content-strat  ms-5">
+        <section class="aboutme mt-4 row row-cols-12 justify-content-strat  ms-5" id="aboutMe">
             <div class="col-md-5 col-ms-12">
                 <h1 class="text-light">About</h1>
                 <div class="line"></div>
-
             </div>
             <div class="col-md-11  col-ms-12 mt-2">
                 <p class="text-light">some text that will be inserted heresome text that will be inserted heresome
@@ -91,7 +90,7 @@
             </div>
             </div>
         </section>
-        <section class="skilles container text-center mb-3 mt-4">
+        <section class="skilles container text-center mb-5 mt-4">
             <div class="row row-cols-12">
                 <div class="col">
                     <h1 class="text-light">Skills</h1>
@@ -99,15 +98,23 @@
                 <div class="containor row row-cols-4 gap-5 justify-content-center mt-5 position-relative">
                     <div class="col SkillsImage position-relative">
                         <img src="assets/pythonImage-removebg-preview.png" alt=""
-                            class=" img-fluid top-50 start-50 translate-middle position-absolute">
-                            <span class="imageSkillsDesc">
+                            class="image img-fluid top-50 start-50 translate-middle position-absolute">
+                        <div class="layer">
+                            <div class="shortDescOfSkills">
                                 <h2 class="text-light">Python</h2>
                                 <p class="text-light">some text that will be inserted here</p>
-                            </span>
+                            </div>
+                        </div>
                     </div>
                     <div class="col SkillsImage">
                         <img src="assets/png-clipart-bootstrap-logo-thumbnail-tech-companies-thumbnail-removebg-preview.png"
-                            alt="" class=" img-fluid">
+                            alt="" class="image img-fluid">
+                        <div class="layer">
+                            <div class="shortDescOfSkills">
+                                <h2 class="text-light">Python</h2>
+                                <p class="text-light">some text that will be inserted here</p>
+                            </div>
+                        </div>
                     </div>
                     <!-- <div class="col SkillsImage position-relative">
                         <img src="assets/JavaScript-logo.png" alt="" class="img-fluid top-50 start-50 translate-middle position-absolute""
@@ -115,21 +122,200 @@
                     </div> -->
                     <div class="col SkillsImage position-relative">
                         <img src="assets/php_image-removebg-preview.png" alt=""
-                            class="img-fluid top-50 start-50 translate-middle position-absolute">
+                            class="image img-fluid top-50 start-50 translate-middle position-absolute">
+                        <div class="layer">
+                            <div class="shortDescOfSkills">
+                                <h2 class="text-light">Python</h2>
+                                <p class="text-light">some text that will be inserted here</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="col SkillsImage position-relative">
                         <img src="assets/png-clipart-mysql-php-database-javascript-ajax-carnifex-blue-text-thumbnail-removebg-preview.png"
-                            alt="" class="img-fluid top-50 start-50 translate-middle position-absolute"
+                            alt="" class="image img-fluid top-50 start-50 translate-middle position-absolute"
                             width="">
+                        <div class="layer">
+                            <div class="shortDescOfSkills">
+                                <h2 class="text-light">Python</h2>
+                                <p class="text-light">some text that will be inserted here</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="col SkillsImage">
                         <img src="assets/a9d6ce81aee44ae017ee-removebg-preview.png" alt=""
-                            class="img-fluid mt-5 mb-5" width="150px">
+                            class="image img-fluid mt-5 mb-5" width="150px">
+                        <div class="layer">
+                            <div class="shortDescOfSkills">
+                                <h2 class="text-light">Python</h2>
+                                <p class="text-light">some text that will be inserted here</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section class="d-grid justify-content-center align-items-center mt-5 text-center mb-3">
+            <h1 class="text-light mb-3">Portfolio</h1>
+            <div class="row row-cols-4 gap-3 justify-content-center mb-4">
+                <div class="containor col border position-relative">
+                    <img src="assets/dummy-image-square.png" alt="" class="img-fluid" width="250px">
+                    .
+                </div>
+                <div class="containor col border position-relative">
+                    <img src="assets/dummy-image-square.png" alt="" class="img-fluid" width="250px">
+                </div>
+                <div class="containor col border position-relative">
+                    <img src="assets/dummy-image-square.png" alt="" class="img-fluid" width="250px">
+                </div>
+                <div class="containor col border position-relative">
+                    <img src="assets/dummy-image-square.png" alt="" class="img-fluid" width="250px">
+                </div>
+                <div class="containor col border position-relative">
+                    <img src="assets/dummy-image-square.png" alt="" class="img-fluid" width="250px">
+                </div>
+                <div class="containor col border position-relative">
+                    <img src="assets/dummy-image-square.png" alt="" class="img-fluid" width="250px">
+                </div>
+            </div>
+            <div class="col">
+                <button class="seeMorePortfolioBtn px-5 py-2">see more</button>
+            </div>
+        </section>
+        <section class="expSection row row-cols-12">
+            <h1 class="text-light ms-3 col-11">Experience</h1>
+            <div class="col-1">
+                <div class="d-flex">
+                    <p class="text-center  text-light px-2 expYearBorder mt-3">2024</p>
+                    <div class="leftArrow mt-3 me-2">
+                    </div>
+                    <div class="circelBorderForExp">
+                    </div>
+                </div>
+            </div>
+            <div class="col-10 ms-5">
+                <div class="expText text-light">
+                    <h1>title</h1>
+                    <div class="line">
+                    </div>
+                    <p class="text-light">some text that will be inserted heresome text that will be inserted
+                        heresome
+                        text that will be inserted heresome
+                        text that will be inserted heresome text that will be inserted heresome text that will be
+                        inserted heresome text that will be inserted heresome
+                        text that will be inserted heresome text that will be inserted heresome text that will be
+                        inserted
+                        heresome text that will be inserted heresome
+                        text that will be inserted heresome
+                        text that will be inserted heresome text that will be inserted heresome text that will be
+                        inserted heresome text that will be inserted heresome
+                        text that will be inserted heresome text that will be inserted here
+                        some text that will be inserted heresome text that will be inserted heresome
+                        text that will be inserted heresome
+                        text that will be inserted heresome text that will be inserted heresome text that will be
+                        inserted heresome text that will be inserted heresome
+                        text that will be inserted heresome text that will be inserted here
+                        some text that will be inserted heresome text that will be inserted heresome
+                        text that will be inserted heresome
+                        text that will be inserted heresome text that will be inserted heresome text that will be
+                        inserted heresome text that will be inserted heresome
+                        text that will be inserted heresome text that will be inserted here
+                        text that will be inserted heresome
+                        text that will be inserted heresome text that will be inserted heresome text that will be
+                        inserted heresome text that will be inserted heresome
+                        text that will be inserted heresome text that will be inserted here
+                        text that will be inserted heresome
+                        text that will be inserted heresome text that will be inserted heresome text that will be
+                        inserted heresome text that will be inserted heresome
+                        text that will be inserted heresome text that will be inserted here
+                        text that will be inserted heresome
+                        text that will be inserted heresome text that will be inserted heresome text that will be
+                        inserted heresome text that will be inserted heresome
+                        text that will be inserted heresome text that will be inserted here
+                    </p>
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="d-flex">
+                    <p class="text-center  text-light px-2 expYearBorder mt-3">2024</p>
+                    <div class="leftArrow mt-3 me-2">
+                    </div>
+                    <div class="circelBorderForExp">
+                    </div>
+                </div>
+            </div>
+            <div class="col-10 ms-5 mb-5">
+                <div class="expText text-light">
+                    <h1>title</h1>
+                    <div class="line">
+                    </div>
+                    <p class="text-light">some text that will be inserted heresome text that will be inserted
+                        heresome
+                        text that will be inserted heresome
+                        text that will be inserted heresome text that will be inserted heresome text that will be
+                        inserted heresome text that will be inserted heresome
+                        text that will be inserted heresome text that will be inserted heresome text that will be
+                        inserted
+                        heresome text that will be inserted heresome
+                        text that will be inserted heresome
+                        text that will be inserted heresome text that will be inserted heresome text that will be
+                        inserted heresome text that will be inserted heresome
+                        text that will be inserted heresome text that will be inserted here
+                        some text that will be inserted heresome text that will be inserted heresome
+                        text that will be inserted heresome
+                        text that will be inserted heresome text that will be inserted heresome text that will be
+                        inserted heresome text that will be inserted heresome
+                        text that will be inserted heresome text that will be inserted here
+                        some text that will be inserted heresome text that will be inserted heresome
+                        text that will be inserted heresome
+                        text that will be inserted heresome text that will be inserted heresome text that will be
+                        inserted heresome text that will be inserted heresome
+                        text that will be inserted heresome text that will be inserted here
+                        text that will be inserted heresome
+                        text that will be inserted heresome text that will be inserted heresome text that will be
+                        inserted heresome text that will be inserted heresome
+                        text that will be inserted heresome text that will be inserted here
+                        text that will be inserted heresome
+                        text that will be inserted heresome text that will be inserted heresome text that will be
+                        inserted heresome text that will be inserted heresome
+                        text that will be inserted heresome text that will be inserted here
+                        text that will be inserted heresome
+                        text that will be inserted heresome text that will be inserted heresome text that will be
+                        inserted heresome text that will be inserted heresome
+                        text that will be inserted heresome text that will be inserted here
+                    </p>
+                </div>
+            </div>
+            <div class="contactMe row align-items-center" id="contactMe">
+                <div class="col-5 stratLineContactMe">
+                </div>
+                <div class="col contactMeTitle text-center text-light">
+                    <h1>Contact me</h1>
+                </div>
+                <div class="col-5 stratLineContactEnd">
+                </div>
+            </div>
+            <div class="row row-cols-3 justify-content-center align-items-center mb-5 gap-3">
+                <div class="contactDitailes d-flex justify-content-center align-items-center p-2">
+                    <i class ="fa-solid fa-envelope fa-2x me-2" style="color: #E2E2B6;"></i>
+                    <span>info@yourdomain.com</span>
+                </div>
+                <div class="contactDitailes d-flex justify-content-center align-items-center p-2">
+                    <i class="fa-solid fa-phone fa-2x me-2" style="color: #E2E2B6;"></i>
+                    <span>info@yourdomain.com</span>
+                </div>
+                <div class="contactDitailes d-flex justify-content-center align-items-center p-2">
+                    <i class="fa-solid fa-location-dot fa-2x me-2" style="color: #E2E2B6;"></i>
+                    <span>info@yourdomain.com</span>
+                </div>
+            </div>
+            <div class="col-12 contentUnderLine mb-5">
+            </div>
+            <div class="d-flex justify-content-center align-items-center">
+                <h1 class="text-light">"Thank You"</h1>
             </div>
         </section>
     </main>
 </body>
 
+</html>
 </html>

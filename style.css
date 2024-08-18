@@ -4,25 +4,21 @@ background-color: #03346E;
 .imageNameAndDesc{
 background-image: linear-gradient(0deg, #021526 50%, #03346E 40%);
 box-shadow: 0rem 15px 15px black;
-
 }
 .name{
 margin-top: 14%;
 }
-
 header nav ul li a.active{
 border-bottom-color:white ;
 border-bottom-style:solid ;
 border-width: 2px;
 font-weight: bold;
 }
-
 header nav ul li a:hover{
 font-weight: bold;
 border-bottom-style:solid;
 border-width: 2px;
 }
-
 #letsStartBtn{
 background-color: #6EACDA;
 border-radius: 6px;
@@ -30,44 +26,35 @@ border-color: #6EACDA;
 padding: 5px;
 color: white;
 }
-
 #seeProjectBtn{
 border-radius: 6px;
 padding: 5px;
 border-color: #6EACDA;
 color:#6EACDA;
 }
-
 #letsStartBtn:hover{
 background-color: white;
 color: #6EACDA;
 }
-
 #seeProjectBtn:hover{
 background-color: #6EACDA;
 color: white;
 }
-
 .contactIcon div{
 background-color: #E2E2B6;
 cursor: pointer;
 color: white;
 }
-
-
-
 .contactIcon div:hover{
 background-color: white;
 cursor: pointer;
 color: #E2E2B6;
 }
-
 .line{
 border-bottom-width: 5px;
 border-bottom-style:solid ;
 border-bottom-color:white ;
 }
-
 .SkillsImage{
 background-color: #6EACDA;
 border: #6EACDA;
@@ -75,34 +62,83 @@ border-radius: 10px;
 box-shadow: 20px 20px 15px black;
 position: relative;
 }
-
-
-.containor{
-    position: relative !important;
-}
 .color:hover{
 background-color: #E2E2B6;
 }
-
-.imageSkillsDesc{
-    position: absolute !important;
-    display:grid;
-    justify-content: center;
-    align-items: center;
-    z-index: 4;
-    background-color: black;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    overflow: hidden;
-    width: 100%;
-    height: 0;
-    transition: .5s ease;
+.SkillsImage{
+position: relative;
 }
-
-.SkillsImage:hover .imageSkillsDesc{
-box-shadow: 10px 20px 20px rgba(0,0,0,0.3);
+.layer{
+transition: .5s ease;
+opacity: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+}
+.SkillsImage:hover .image{
 opacity: 0.3;
-transform: scale(1.1, 1.1);
-
 }
+.SkillsImage:hover .layer {
+opacity: 1;
+}
+.shortDescOfSkills {
+color: white;
+font-size: 16px;
+padding: 16px 32px;
+}
+.seeMorePortfolioBtn{
+background-color: #6EACDA;
+border-color: #6EACDA;
+border-radius: 6px;
+color: white;
+transition: .20s ease-out;
+}
+.seeMorePortfolioBtn:hover{
+text-decoration: underline;
+transition: .20s ease-in;
+background-color: white;
+color: #6EACDA;
+border-color: white;
+box-shadow:5px 5px #6EACDA;
+}
+.expSection{
+background-color: #021526;
+}
+.expYearBorder{
+background-color: #03346E;
+border-color: #03346E;
+}
+.leftArrow{
+width: 0;
+height: 0;
+border-top: 13px solid transparent;
+border-bottom: 12px solid transparent;
+border-left:10px solid #03346E;
+}
+.circelBorderForExp{
+border-radius: 50%;
+border-color: #E2E2B6;
+background-color: #E2E2B6;
+padding-left: 55px;
+padding-top: 25px;
+box-shadow: 0px 0px 5px #E2E2B6;
+}
+.stratLineContactMe{
+border-top: 10px solid #E2E2B6;
+}
+.stratLineContactEnd{
+border-top: 10px solid #E2E2B6;
+}
+.contentUnderLine{
+    border-top: 10px solid #E2E2B6;
+}
+.contactDitailes{
+    border:1px solid #6EACDA;
+    background-color: #6EACDA;
+    border-radius: 6px;
+    color:white;
+}
+
