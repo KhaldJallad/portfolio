@@ -11,13 +11,13 @@ margin-top: 14%;
 header nav ul li a.active{
 border-bottom-color:white ;
 border-bottom-style:solid ;
-border-width: 2px;
+border-width: 3px;
 font-weight: bold;
 }
 header nav ul li a:hover{
 font-weight: bold;
 border-bottom-style:solid;
-border-width: 2px;
+border-width: 3px;
 }
 #letsStartBtn{
 background-color: #6EACDA;
@@ -25,17 +25,21 @@ border-radius: 6px;
 border-color: #6EACDA;
 padding: 5px;
 color: white;
+transition: .5s ease;
+text-decoration: none;
 }
 #seeProjectBtn{
-border-radius: 6px;
-padding: 5px;
-border-color: #6EACDA;
-color:#6EACDA;
+    border-radius: 6px;
+    padding: 5px;
+    border-color: #6EACDA;
+    transition: .5s ease;
+    color: #6EACDA;
 }
 #letsStartBtn:hover{
-background-color: white;
-color: #6EACDA;
+    background-color: white;
+    color: #6EACDA;
 }
+
 #seeProjectBtn:hover{
 background-color: #6EACDA;
 color: white;
@@ -44,6 +48,7 @@ color: white;
 background-color: #E2E2B6;
 cursor: pointer;
 color: white;
+transition: .5s ease;
 }
 .contactIcon div:hover{
 background-color: white;
@@ -142,3 +147,6 @@ border-top: 10px solid #E2E2B6;
     color:white;
 }
 
+/* .aboutMeContent{
+    box-shadow:10px 10px 10px #E2E2B6;
+} */

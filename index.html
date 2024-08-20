@@ -20,7 +20,7 @@
         <nav>
             <ul class="nav  d-md-flex justify-content-md-end me-md-5">
                 <li class="nav-item">
-                    <a class="navItem  nav-link text-light" href="#" id="home">Home</a>
+                    <a class="navItem active  nav-link text-light" href="#" id="home">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="navItem nav-link text-light" href="#aboutMe" id="about">About</a>
@@ -44,8 +44,8 @@
                         text that will be inserted heresome</p>
                 </span>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-strat mb-3">
-                    <button class="me-md-2 px-5 " type="button" id="letsStartBtn">let's strat</button>
-                    <button class="px-3" type="button" id="seeProjectBtn"><span>See more project's</span></button>
+                        <a href="#aboutMe" class="text-decoration-none"><div class="me-md-2 px-5 " type="button" id="letsStartBtn">let's strat</div></a>
+                        <a href="#portfolio" class="text-decoration-none"><div class="px-3 border border-info" type="button" id="seeProjectBtn">See more project's</div></a>
                 </div>
                 <div class="contactIcon d-flex gap-2 d-md-flex justify-content-md-end justify-content-sm-center">
                     <div class="border rounded-circle  px-2 py-1">
@@ -61,7 +61,7 @@
             </div>
         </section>
         <section class="aboutme mt-4 row row-cols-12 justify-content-strat  ms-5" id="aboutMe">
-            <div class="col-md-5 col-ms-12">
+            <div class="aboutMeContent col-md-5 col-ms-12">
                 <h1 class="text-light">About</h1>
                 <div class="line"></div>
             </div>
@@ -154,7 +154,7 @@
                 </div>
             </div>
         </section>
-        <section class="d-grid justify-content-center align-items-center mt-5 text-center mb-3">
+        <section class="d-grid justify-content-center align-items-center mt-5 text-center mb-3" id="portfolio">
             <h1 class="text-light mb-3">Portfolio</h1>
             <div class="row row-cols-4 gap-3 justify-content-center mb-4">
                 <div class="containor col border position-relative">
