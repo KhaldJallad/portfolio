@@ -1,3 +1,10 @@
+html body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 body{
 background-color: #03346E;
 }
@@ -13,11 +20,39 @@ border-bottom-color:white ;
 border-bottom-style:solid ;
 border-width: 3px;
 font-weight: bold;
+animation: border_animation 1s   ease;
 }
+
+.aboutTitle{
+    transition: .5s ease-in-out;
+}
+
+.aboutMeContent:hover .aboutTitle{
+    text-shadow: 0px 0px 10px white;
+    cursor: pointer;
+}
+
+
+.aboutMeContent:hover .line{
+    box-shadow: 0px 0px 10px white;
+    cursor: pointer;
+
+}
+
 header nav ul li a:hover{
 font-weight: bold;
 border-bottom-style:solid;
 border-width: 3px;
+}
+
+
+@keyframes border_animation {
+	0%{
+		width: 30%;
+	}
+	100%{
+		width: 100%;
+	}
 }
 #letsStartBtn{
 background-color: #6EACDA;
@@ -29,15 +64,15 @@ transition: .5s ease;
 text-decoration: none;
 }
 #seeProjectBtn{
-    border-radius: 6px;
-    padding: 5px;
-    border-color: #6EACDA;
-    transition: .5s ease;
-    color: #6EACDA;
+border-radius: 6px;
+padding: 5px;
+border-color: #6EACDA;
+transition: .5s ease;
+color: #6EACDA;
 }
 #letsStartBtn:hover{
-    background-color: white;
-    color: #6EACDA;
+background-color: white;
+color: #6EACDA;
 }
 
 #seeProjectBtn:hover{
@@ -59,6 +94,7 @@ color: #E2E2B6;
 border-bottom-width: 5px;
 border-bottom-style:solid ;
 border-bottom-color:white ;
+transition: .5s ease-in-out;
 }
 .SkillsImage{
 background-color: #6EACDA;
@@ -130,6 +166,7 @@ background-color: #E2E2B6;
 padding-left: 55px;
 padding-top: 25px;
 box-shadow: 0px 0px 5px #E2E2B6;
+transition: .5s ease-in-out;
 }
 .stratLineContactMe{
 border-top: 10px solid #E2E2B6;
@@ -138,15 +175,28 @@ border-top: 10px solid #E2E2B6;
 border-top: 10px solid #E2E2B6;
 }
 .contentUnderLine{
-    border-top: 10px solid #E2E2B6;
+border-top: 10px solid #E2E2B6;
 }
 .contactDitailes{
-    border:1px solid #6EACDA;
-    background-color: #6EACDA;
-    border-radius: 6px;
-    color:white;
+border:1px solid #6EACDA;
+background-color: #6EACDA;
+border-radius: 6px;
+color:white;
+cursor: pointer;
+transition: .5s ease-in-out;
+
 }
 
 /* .aboutMeContent{
-    box-shadow:10px 10px 10px #E2E2B6;
+box-shadow:10px 10px 10px #E2E2B6;
 } */
+.contactDitailes:hover {
+    background-color: rgb(26,26,26, 0.6);
+    backdrop-filter: blur(80px);
+    border-color: rgb(26,26,26, 0.6);
+    box-shadow: 0px 0px 50px white;
+}
+.exp:hover .circelBorderForExp{
+    box-shadow: 0px 0px 50px #E2E2B6;
+    transition: .5s ease-in-out;
+}
